@@ -15,8 +15,8 @@ What is Open Culture
 Types
 =====
 
-Computing
----------
+:doc:`</open_computing>`
+------------------------
 
 Without doubt, computer technology is the field where Open Source Culture is the most widespread. The phrase "open source" refers to a wide range of software licenses whose source code is made available to the public without any or with few copyright restrictions. Anyone can use, study, or modify the software at will, so long as the same rights are given to subsequent users.
 
