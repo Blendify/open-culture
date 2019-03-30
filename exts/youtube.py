@@ -89,24 +89,24 @@ def nop_node(self, node):
     pass
 
 
-#Blender custom for not html builders
-def process_youtube_node(app, doctree, fromdocname):
-    if app.builder.name != "html" and app.builder.name != "singlehtml":
-        for node in doctree.traverse(youtube):
-            para = nodes.paragraph()
-            t = "A video can be found at "
-            intex = nodes.Text(t, t)
-            para += intex
+#Custom for not html builders
+#def process_youtube_node(app, doctree, fromdocname):
+#    if app.builder.name != "html" and app.builder.name != "singlehtml":
+#        for node in doctree.traverse(youtube):
+#            para = nodes.paragraph()
+#            t = "A video can be found at "
+#            intex = nodes.Text(t, t)
+#            para += intex
             
-            href = "https://www.youtube.com/watch?v=%s" % node["id"]
-            linknode = nodes.reference('', '', internal=False, refuri=href)
-            innernode = nodes.inline('', href)
-            linknode.append(innernode)
-            para += linknode
+#            href = "https://www.youtube.com/watch?v=%s" % node["id"]
+#            linknode = nodes.reference('', '', internal=False, refuri=href)
+#            innernode = nodes.inline('', href)
+#            linknode.append(innernode)
+#            para += linknode
 
-            node.replace_self(para)
+ #           node.replace_self(para)
 
-
+            
 class YouTube(Directive):
     has_content = True
     required_arguments = 1
