@@ -15,6 +15,11 @@ What is Open Culture
 Types
 =====
 
+.. toctree::
+   :hidden:
+   
+   open_computing.rst
+
 :doc:`</open_computing>`
 ------------------------
 
