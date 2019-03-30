@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from __future__ import division
@@ -9,26 +9,18 @@ from docutils.parsers.rst import directives, Directive
 
 CONTROL_HEIGHT = 30
 
-_re_size = re.compile("(\d+)(|%|px)$")
-_re_aspect = re.compile("(\d+):(\d+)")
-
-
 def get_size(d, key):
     if key not in d:
         return None
-    m = _re_size.match(d[key])
+    m = re.match("(\d+)(|%|px)$", d[key])
     if not m:
         raise ValueError("invalid size %r" % d[key])
     return int(m.group(1)), m.group(2) or "px"
 
-
 def css(d):
-    return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
+    return "; ".join(sorted("%s: %s" % kv for kv in d.iteritems()))
 
-
-class youtube(nodes.General, nodes.Element):
-    pass
-
+class youtube(nodes.General, nodes.Element): pass
 
 def visit_youtube_node(self, node):
     aspect = node["aspect"]
@@ -55,7 +47,7 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "https://www.youtube.com/embed/%s" % node["id"],
+            "src": "http://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
@@ -74,39 +66,15 @@ def visit_youtube_node(self, node):
             "border": "0",
         }
         attrs = {
-            "src": "https://www.youtube.com/embed/%s" % node["id"],
+            "src": "http://www.youtube.com/embed/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
         self.body.append("</iframe>")
 
-
 def depart_youtube_node(self, node):
     pass
 
-
-def nop_node(self, node):
-    pass
-
-
-#Custom for not html builders
-def process_youtube_node(app, doctree, fromdocname):
-#    if app.builder.name != "html" and app.builder.name != "singlehtml":
-#        for node in doctree.traverse(youtube):
-#            para = nodes.paragraph()
-#            t = "A video can be found at "
-#            intex = nodes.Text(t, t)
-#            para += intex
-            
-#            href = "https://www.youtube.com/watch?v=%s" % node["id"]
-#            linknode = nodes.reference('', '', internal=False, refuri=href)
-#            innernode = nodes.inline('', href)
-#            linknode.append(innernode)
-#            para += linknode
-
- #           node.replace_self(para)
-
-            
 class YouTube(Directive):
     has_content = True
     required_arguments = 1
@@ -121,7 +89,7 @@ class YouTube(Directive):
     def run(self):
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
-            m = _re_aspect.match(aspect)
+            m = re.match("(\d+):(\d+)", aspect)
             if m is None:
                 raise ValueError("invalid aspect ratio %r" % aspect)
             aspect = tuple(int(x) for x in m.groups())
@@ -129,27 +97,8 @@ class YouTube(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [
-            youtube(
-                id=self.arguments[0],
-                aspect=aspect,
-                width=width,
-                height=height,
-                )
-            ]
-
+        return [youtube(id=self.arguments[0], aspect=aspect, width=width, height=height)]
 
 def setup(app):
-    app.add_node(
-            youtube,
-            html=(visit_youtube_node, depart_youtube_node),
-            latex=(nop_node, nop_node),
-            text=(nop_node, nop_node),
-            )
+    app.add_node(youtube, html=(visit_youtube_node, depart_youtube_node))
     app.add_directive("youtube", YouTube)
-    #event listener: replace node if not html builder
-    app.connect('doctree-resolved', process_youtube_node)
-    return {
-        "parallel_read_safe": True,
-    }
-    
