@@ -90,7 +90,7 @@ def nop_node(self, node):
 
 
 #Custom for not html builders
-#def process_youtube_node(app, doctree, fromdocname):
+def process_youtube_node(app, doctree, fromdocname):
 #    if app.builder.name != "html" and app.builder.name != "singlehtml":
 #        for node in doctree.traverse(youtube):
 #            para = nodes.paragraph()
