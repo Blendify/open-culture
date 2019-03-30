@@ -32,36 +32,36 @@ Types
 Open Computing is the idea that computational resources can be used through
 the idea of distributive computing to accomplish a harder goal.
 
-Open Source
------------
+:doc:`</open_source>`
+---------------------
 
 Open source refers to software whose code which it was made from can be viewed, copied, and modified by others.
 
-Open Design
------------
+:doc:`<open_design>`
+--------------------
 
 Open Design is the idea that the resources for the production of products are shared with others.
 
-Open Content
-------------
+:doc:`<open_content>`
+---------------------
 
 Open Content refers to creative works (music, art, films, literary)
 that are available in "source code" allowing others to use and/or modify them.
 
-Open Science
-------------
+:doc:`<open_science>`
+---------------------
 
 Open Science is the idea that scientific research should be accessible
 to all levels of an inquiring society, amateur or professional
 
-Open Data
----------
+:doc:`<open_data>`
+------------------
 
 Open Data is the idea that raw information that is collected
 should also be provided to be browsed and used by others.
 
-Open Government
----------------
+:doc:`<open_government>`
+------------------------
 
 Open Government is the idea that citizens have the right to access the documents
 and proceedings of the government to allow for effective public oversight.
