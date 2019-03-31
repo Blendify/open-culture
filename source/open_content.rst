@@ -21,7 +21,7 @@ Ways to get involved
    - `Open Content Search <https://search.creativecommons.org/>`__
    
 Two of the biggest proponents of Open content are the Wikipedia and Creative Commons orginiations.
-To get involved in the Open COntent movement you can either improve existing works or publish new works.
+To get involved in the Open Content movement you can either improve existing works or publish new works.
 Improving open content usually takes the form of written works.
 Wikipedia is the largest collection of written Open Content and allows anyone to improve it.
 If you would like to contribute to a particular page that you have knowledge about Wikipedia
