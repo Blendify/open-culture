@@ -11,6 +11,10 @@ What is Open Culture
 
 ''Open Culture'' is a concept according to which knowledge should be spread freely and its growth should come from developing, altering or enriching already existing works on the basis of sharing and collaboration, without being restricted by rules linked to the legal protection of intellectual property. In the context of globalization, the consequence is that all citizens should have equal access to information.
 
+Why Open Culture
+----------------
+
+
 
 Types
 =====
