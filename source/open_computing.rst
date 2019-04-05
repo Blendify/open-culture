@@ -7,8 +7,8 @@ What is Open Computing
 ======================
 
 Open Computing combines computing resources such as CPS's or GPU's to perform complex calculations.
-These different computing resources can be distributed within a data center or all the way to individual homes.
-Open Computing help researchers solve complex problems in math, science, cryptography, and even art.
+These different computing resources can be distributed within a data center or to individual homes.
+Open Computing helps researchers solve complex problems in math, science, cryptography, and even art.
 
 How to get involved
 ===================
