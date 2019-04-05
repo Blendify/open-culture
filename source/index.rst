@@ -6,6 +6,13 @@
 Welcome to Open Culture
 =======================
 
+The goal of this website is to raise awareness of what Open Culture is
+and provide ways that you can get involved in specific areas.
+
+Consider contributing to this :doc:`Open Source </open_source>` project
+`here <https://github.com/Blendify/open-culture>`__
+
+
 What is Open Culture
 --------------------
 
