@@ -6,9 +6,13 @@ Open Data
 What is Open Data
 =================
 
-Open data is data that can be freely used, re-used and redistributed by anyone.
+Open Data is as defined by the `Open Definition <https://opendefinition.org/od/2.1/en/>`__:
 
-A full definition can be found `here <https://opendefinition.org/od/2.1/en/>`__
+.. blockquote::
+
+   Open data is data that can be freely used, re-used and redistributed by anyone -- subject only,
+   at most, to the requirement to attribute and sharealike.
+
 
 How to get involved
 ===================
