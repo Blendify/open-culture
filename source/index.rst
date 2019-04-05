@@ -14,6 +14,21 @@ What is Open Culture
 Why Open Culture
 ----------------
 
+Open Culture enables people to work together to create innovative solutions to problems.
+Open Culture can attribute to GPS, medicine, software, most of the internet, and so much more.
+Open Culture practices these core values:
+
+Collaboration
+   Open Culture projects allow many people to work towards a goal,
+   even people who are not connected to a particular company or organization.
+Innovation
+   Open Culture projects create the future. Society would not be where it is today
+   if Open Culture hasn't invented things like the internet.
+Transparency
+   Open Culture is open, the goal is to not give full control of the project to a small group of people
+   but allow others to see and participate in the development of the project.
+Community
+   Open Culture projects go beyond just the project and create avenues for like minded people to fellowship with each other.
 
 
 Types
