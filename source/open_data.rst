@@ -18,5 +18,6 @@ How to get involved
 
 .. sidebar:: Resources
 
+   - `wikidata.org <https://www.wikidata.org/wiki/Wikidata:Main_Page>`__
    - `List of Data Portals <https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/>`__
-   
+
