@@ -15,17 +15,17 @@ How to get involved
 
    Global
 
-   - https://www.opengovpartnership.org
-   - http://www.oecd.org/gov/open-government.htm
+   - `Open Goverment Partnership <https://www.opengovpartnership.org>`__
+   - `OECD -- Open Government <http://www.oecd.org/gov/open-government.htm>`__
 
    United States
 
-   - https://code.gov/
-   - https://www.data.gov/
-   - https://www.state.gov/open/
+   - `Code.gov <https://code.gov/>`__
+   - `Data.gov <https://www.data.gov/>`__
+   - `State.gov <https://www.state.gov/open/>`__
 
    Europe
 
-   - https://www.opengovpartnership.org/tag/european-union
-   - http://www.eu-opengovernment.eu/
-   - https://ec.europa.eu/digital-single-market/en/open-government
+   - `Open Goverment Partnership -- EU https://www.opengovpartnership.org/tag/european-union>`__
+   - `EU Open Government <http://www.eu-opengovernment.eu/>`__
+   - `European Commission -- Open Government <https://ec.europa.eu/digital-single-market/en/open-government>`__
