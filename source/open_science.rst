@@ -27,3 +27,7 @@ How to get involved
    - `openscience.org <http://openscience.org>`__
    - `Foster Open Science <https://www.fosteropenscience.eu/>`__
    - `Open Science -- Eurpoean Union <https://ec.europa.eu/research/openscience/index.cfm>`__
+
+Being an open scientist means you make as much of your research available to the public.
+This can take the form of blogs, or making presentations, etc. `Open Science Framework <https://osf.io>`__
+has a resource to create opensource notebooks and allows for collaboration with others.
