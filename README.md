@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/openculture/badge/?version=latest)](https://openculture.readthedocs.io/?badge=latest)
+
 # Open Culture
 
 Welcom to Open Culture!
