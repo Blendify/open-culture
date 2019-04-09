@@ -11,22 +11,21 @@ Open government is the governing doctrine which holds that citizens have the rig
 How to get involved
 ===================
 
-Global
-------
+.. sidebar:: Resources
 
-- https://www.opengovpartnership.org
-- http://www.oecd.org/gov/open-government.htm
+   Global
 
-United States
--------------
+   - https://www.opengovpartnership.org
+   - http://www.oecd.org/gov/open-government.htm
 
-- https://code.gov/
-- https://www.data.gov/
-- https://www.state.gov/open/
+   United States
 
-Europe
-------
+   - https://code.gov/
+   - https://www.data.gov/
+   - https://www.state.gov/open/
 
-- https://www.opengovpartnership.org/tag/european-union
-- http://www.eu-opengovernment.eu/
-- https://ec.europa.eu/digital-single-market/en/open-government
+   Europe
+
+   - https://www.opengovpartnership.org/tag/european-union
+   - http://www.eu-opengovernment.eu/
+   - https://ec.europa.eu/digital-single-market/en/open-government
