@@ -19,3 +19,9 @@ How to get involved
 
    - `Thingiverse <https://www.thingiverse.com/>`__
    - `Instructables <https://www.instructables.com/>`__
+   - `List of open hardware projects <https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects>`__
+
+Open Design involves publishing and using other people's designed.
+Websites like `Thingiverse <https://www.thingiverse.com/>`__ exists as a collection of 3D printable designs
+and `Instructables <https://www.instructables.com/>`__ a collection of tutorials and designs for all sort of projects.
+One way to contribute to the Open Design movement is to contribute designs to these websites.
