@@ -26,6 +26,6 @@ How to get involved
 
    Europe
 
-   - `Open Goverment Partnership -- EU https://www.opengovpartnership.org/tag/european-union>`__
+   - `Open Goverment Partnership -- EU <https://www.opengovpartnership.org/tag/european-union>`__
    - `EU Open Government <http://www.eu-opengovernment.eu/>`__
    - `European Commission -- Open Government <https://ec.europa.eu/digital-single-market/en/open-government>`__
