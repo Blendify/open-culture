@@ -33,5 +33,6 @@ Contribute to Development
 
 .. sidebar:: Resources
 
+   - `Open Source Guide <https://opensource.guide>`__
    - `GitHub <https://github.com/>`__
    - `Gitlab <https://gitlab.com>`__
