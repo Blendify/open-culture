@@ -36,3 +36,15 @@ Contribute to Development
    - `Open Source Guide <https://opensource.guide>`__
    - `GitHub <https://github.com/>`__
    - `Gitlab <https://gitlab.com>`__
+   
+Contributing to Open Source can be a daunting experience.
+The Open Source part of Open Culture is by far the most complex.
+One of the hardest parts is finding a place to start.
+Resources like `GitHub <https://github.com/>`__
+allow anyone to publish code online and allows others to contribute upon other's work.
+There are many more ways to contribute to Open Source but GitHub is by far the easiest
+for a new developer or someone new to Open  Source.
+
+A great resource it this `Open Source Guide <https://opensource.guide>`__
+which guides you into selecting and working with GitHub and finding a particular project
+to get started with.
