@@ -1,7 +1,4 @@
-.. Open Culture documentation master file, created by
-   sphinx-quickstart on Thu Mar 14 12:47:16 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+
 
 Welcome to Open Culture
 =======================
@@ -17,6 +14,7 @@ What is Open Culture
 --------------------
 
 ''Open Culture'' is a concept according to which knowledge should be spread freely and its growth should come from developing, altering or enriching already existing works on the basis of sharing and collaboration, without being restricted by rules linked to the legal protection of intellectual property. In the context of globalization, the consequence is that all citizens should have equal access to information.
+
 
 Why Open Culture
 ----------------
@@ -38,8 +36,8 @@ Community
    Open Culture projects go beyond just the project and create avenues for like minded people to fellowship with each other.
 
 
-Types
-=====
+Types of Open Culture
+=====================
 
 .. toctree::
    :hidden:
